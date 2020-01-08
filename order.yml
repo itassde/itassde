@@ -8,12 +8,6 @@ spring:
     username: root
     password: 1234
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
-  cloud:
-    congig:
-      discover:
-        enable: true
-        service-id: CONFIG
-      profile: test
     stream:
       bindings:
         myMessage:
@@ -35,5 +29,4 @@ eureka:
 logging:
   level:
     org.springframework.cloud.openfeign: debug
-evn: test
  
