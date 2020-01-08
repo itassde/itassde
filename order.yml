@@ -2,7 +2,7 @@ server:
   port: 7001
 spring:
   application:
-    name: ordeer
+    name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
