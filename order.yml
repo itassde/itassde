@@ -35,3 +35,5 @@ eureka:
 logging:
   level:
     org.springframework.cloud.openfeign: debug
+evn: test
+ 
